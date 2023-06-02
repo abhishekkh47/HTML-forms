@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+</head>
+<body>
+	<form action="#" method="POST">
+		<input type="hidden" name="secret" value="12345">
+
+		<h1>Create an Account</h1>
+		<label for="email">Email:</label><br>
+		<input type="email" name="email" id="email"><br><br>
+		<label for="password">Pasword:</label><br>
+		<input type="password" name="password" id="password"><br><br>
+		<label for="age">Age:</label><br>
+		<select id="age" name="age">
+			<option selected>Select Age</option>
+			<option value="under 18">Under 18</option>
+			<option value="18-30">18 to 30</option>
+			<option value="31-45">31 to 45</option>
+			<option value="45+">45+</option>
+		</select><br><br>
+		<label for="about">Tell us about yourself:</label><br>
+		<textarea type="text" name="about" id="about" rows="5" cols="50"></textarea>
+		<br><br>
+		<input type="checkbox" name="#" value="yes">I agree to the <a href="#">terms of services</a><br><br>
+		<input type="submit" value="Sign Up">
+	</form>
+</body>
+</html>
